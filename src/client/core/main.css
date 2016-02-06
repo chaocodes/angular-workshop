@@ -1,0 +1,15 @@
+.site-header {
+	margin-bottom: 50px;
+}
+
+.post {
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 2px dashed #000;
+}
+
+.comment {
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px dotted #ccc;
+}

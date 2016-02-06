@@ -1,0 +1,19 @@
+{
+	"name": "angular-workshop",
+	"version": "0.0.0",
+	"description": "Qualtrics Angular Workshop",
+	"author": "Chao Lai",
+	"main": "dist/server/server.js",
+	"dependencies": {
+		"express": "~4.8.5"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.4",
+		"grunt-contrib-clean": "~0.5.0",
+		"grunt-contrib-concat": "~0.4.0",
+		"grunt-contrib-copy": "~0.5.0",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-develop": "~0.4.0",
+		"load-grunt-tasks": "~0.5.0"
+	}
+}

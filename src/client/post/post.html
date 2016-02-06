@@ -1,0 +1,11 @@
+<h4>{{post.title}}</h4>
+<p>{{post.body}}</p>
+<div ng-if="!viewComments">
+	<button class="btn btn-sm btn-default view-comments" ng-click="toggleViewComments()">View Comments</button>
+</div>
+<div ng-if="viewComments">
+	<button class="btn btn-sm btn-default hide-comments" ng-click="toggleViewComments()">Hide Comments</button>
+	<div class="comments" ng-repeat="comment in comments">
+		<div class="comment" workshop.comment.comment-directive comment="comment">
+	</div>
+</div>
